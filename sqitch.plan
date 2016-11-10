@@ -1,3 +1,6 @@
 %syntax-version=1.0.0
 %project=glintpay-db
 %uri=https://github.com/simonjwoolf/glintpay-db/
+
+trig_b_Insert_transfers 2016-11-10T14:35:15Z Simon J Woolf <simonjwoolf@yahoo.co.uk> # Create the before insert trigger on transfers - protects against doublespending attack
+trig_a_Insert_transfers 2016-11-10T15:05:50Z Simon J Woolf <simonjwoolf@yahoo.co.uk> # Create the after insert trigger on transfers - protects against doublespending attack
